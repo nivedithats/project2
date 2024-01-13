@@ -1,0 +1,70 @@
+.container{
+    background-color: cadetblue;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+/* p1.html*/
+.csspadding>h1,.cssBorder>h1,.cssMargin>h1{
+    background-color: #ff7f50;
+    color: #fff;
+    border-radius: 5px;
+} 
+.csspadding>h1:nth-child(1){
+    padding: 50px;/* apply for all sides*/
+
+}
+.csspadding>h1:nth-child(2){
+    padding: 25px 75px;/* apply for vertical and horizontal (padding:vertiocal(top, bottom),harizontal(left and right))*/
+}
+.csspadding>h1:nth-child(3){
+    padding: 25px 50px 75px;/*apply for top horizontal(left right bottom side*/
+}
+/*p2.html*/ 
+*{
+    margin: 0;
+    padding: 0;
+}
+.cssBorder>h1{
+    padding: 20px;
+}
+.cssBorder>h1:nth-child(1){
+    border: 5px solid red;
+}
+.cssBorder>h1:nth-child(2){
+    border: 50px;
+    border-color: red blue;/*vertical horizonatal*/ 
+    border-style: groove;
+
+}
+.cssBorder>h1:nth-child(3){
+    border: 50px;
+    border-color: red blue black;
+    border-style: ridge;
+}
+.cssBorder>h1:nth-child(4){
+    border: 50px;
+    border-color: red blue black green;
+    border-style: inset;
+
+}
+/* p4.html */
+.cssMargin>h1{
+    padding: 30px;
+}
+.cssMargin>h1:nth-child(1){
+    margin: 50px;/*apply for all sides*/ 
+}
+.cssMargin>h1:nth-child(2){
+    margin: 50px 100px;/*apply for vertical and horizontal*/
+}
+.cssMargin>h1:nth-child(3){
+    margin: 50px 100px 150px;/*top,harizontal(left,right),bottom*/
+}
+.cssBoxModel{
+    background-color: bisque;
+    padding: 30px;
+    border: 10px groove #000 ;
+    margin: 30px;
+    color: #808080;
+}
